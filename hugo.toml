@@ -1,0 +1,14 @@
+baseURL = 'https://jmooring.github.io/hosting-github-pages-tina-cms/'
+languageCode = 'en-us'
+title = 'Hosting Test - GitHub Pages with TinaCMS'
+disableKinds = ['rss','sitemap','taxonomy','term']
+
+[[menus.main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
+
+[[menus.main]]
+name = 'Posts'
+pageRef = '/posts'
+weight = 20
